@@ -15,7 +15,13 @@ java {
   }
 }
 
-loom { /* ... */ }
+loom {
+  runs {
+    named("client") {
+      programArgs("--userProperties", "{}")
+    }
+  }
+}
 
 legacyLooming { /* ... */ }
 
