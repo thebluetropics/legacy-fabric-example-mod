@@ -1,0 +1,1 @@
+An example Legacy Fabric mod.

@@ -1,0 +1,12 @@
+# Gradle
+/.gradle/
+/build/
+
+# Intellij IDEA
+/.idea/
+
+# Minecraft
+/run/
+
+# MacOS
+*.DS_Store

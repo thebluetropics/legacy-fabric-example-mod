@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "examplemod",
+  "version": "0.1.0",
+  "name": "Example Mod",
+  "description": "An Example Mod",
+  "authors": ["thebluetropics"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.thebluetropics.examplemod.ExampleMod"
+    ],
+    "client": [
+      "io.github.thebluetropics.examplemod.client.ExampleModClient"
+    ]
+  },
+  "mixins": [
+    {
+      "environment": "*",
+      "config": "examplemod.mixins.json"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "legacy-fabric-api": ">=1.10.0",
+    "minecraft": "1.12.2"
+  }
+}
